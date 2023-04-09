@@ -1,0 +1,109 @@
+document.getElementById("footerSection").innerHTML = `
+
+<footer id="footer">
+			<div class="cs-footer footer-v1 default-footer">
+				<div class="footer-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
+								<div class="widget widget-newsletter fancy">
+									<div class="widget-title">
+										<h5>NEWSLETTER</h5>
+									</div>
+									<div class="fieldset">
+										<p>Subscribe to JobCareer | Job Board Responsive WordPress Theme newsletter to get
+											the latest jobs posted, candidates ,and other latest news. stay updated.</p>
+										<form
+											action="javascript:jobcareer_mailchimp_submit('wp-content/themes/jobcareer/index.html','2','https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php')"
+											id="mcform_2" class="cs-mailchimp" method="post">
+											<div class="clear"></div>
+
+											<input type="hidden" id="cs_list_id" name="cs_list_id" value="0" /></li>
+											</ul><input type="text" onblur="if (this.value == '') {this.value = 'Enter your email address';}"
+												onfocus="if (this.value == 'Enter your email address') {this.value = '';}"
+												class="txt-bar vsmall" id="mc_email" name="mc_email" value="Enter your email address" /></li>
+											</ul> <label>
+												<button type="submit" value="Submit"><i class="icon-angle-right"></i></button>
+											</label>
+										</form>
+										<div id="newsletter_mess_2" style="display:none" class="cs-error-msg"></div>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
+								<div class="widget widget_nav_menu">
+									<div class="widget-title">
+										<h5>Frequently Asked Questions</h5>
+									</div>
+									<div class="menu-jobcareer-frequently-asked-questions-menu-container">
+										<ul id="menu-jobcareer-frequently-asked-questions-menu" class="menu">
+											<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1410">
+												<a id="aboutLink" href="../about-us/index.html">About Us</a>
+											</li>
+											<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1410">
+												<a id="faqsLink" href="../frequently-asked-questions/index.html">FAQ's</a>
+											</li>
+											<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1411">
+												<a id="termsLink" href="../terms-and-policies/index.html">Terms And Policies</a>
+											</li>
+											<li class="../menu-item menu-item-type-custom menu-item-object-custom menu-item-1415">
+												<a id="disclimersLink" href="#">Disclaimers</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
+								<div class="widget widget-text widget-contact-information">
+									<div class="contact-info">
+										<div class="widget-title">
+											<h5>CONTACT US</h5>
+										</div>
+										<div class="widgettext">
+
+											<address>
+												<span>
+													Address: Schönhaus er Allee 167c 10435 Berlin, Germany<br />Phone:
+													+12139907<br>
+													Email: info@yoursite.com </span>
+											</address>
+											<ul class="social-media">
+												<li><a href="#" data-original-title="facebook"><i class="icon-facebook7"></i></a>
+												</li>
+												<li><a href="#" data-original-title="twitter"><i class=" icon-twitter6"></i></a>
+												</li>
+												<li><a href="#" data-original-title="instagram"><i class="icon-instagram"></i></a>
+												</li>
+												<li><a href="#" data-original-title="youtube"><i class="icon-youtube"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="background-color:#1e1f21;" class="cs-copyright">
+					<div class="container">
+						<div class="cs-copyright-area">
+							<div class="row">
+								<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+									<div class="footer-links">
+										© 2023 JobCareer All rights reserved. Design by <a class="&#039;cs-color&#039;"
+											href="index.html#&#039;">Chimp Studio</a>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="back-to-top">
+										<a href="javascript:void(0);" style="color:#fff;">Back to top<i class="icon-arrow-up7"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+`;
