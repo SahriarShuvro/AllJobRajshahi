@@ -545,8 +545,6 @@
             }
             //});
         };</script>
-
-    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body
@@ -714,34 +712,1207 @@
                                             });
                                         };
                                     </script>
+                                    <div class="user-account visible-xs visible-sm">
+                                        <div class="join-us"><i class="cs-color icon-pencil6"></i><a class="join-us"
+                                                class="cs-color" data-target="#join-us" data-toggle="modal"
+                                                href="#">Join Us</a>
+                                            <div class="modal fade" id="join-us" tabindex="-1" role="dialog"
+                                                aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <a class="close" data-dismiss="modal">&times;</a>
+                                                            <h4 id="myModalLabel" class="modal-title">Sign Up</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <ul class="nav nav-tabs" role="tablist">
+                                                                <li role="presentation" class="active">
+                                                                    <a href="#candidate979273"
+                                                                        onclick="javascript:cs_set_session('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php','candidate')"
+                                                                        role="tab" data-toggle="tab"><i
+                                                                            class="icon-user-add"></i>Candidate</a>
+                                                                </li>
+                                                                <li role="presentation">
+                                                                    <a href="#employer979273"
+                                                                        onclick="javascript:cs_set_session('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php','employer')"
+                                                                        role="tab" data-toggle="tab"><i
+                                                                            class="icon-briefcase4"></i>Employer</a>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="tab-content">
+                                                                <div id="employer979273" role="tabpanel"
+                                                                    class="employer-register tab-pane ">
+                                                                    <div id="result_709062" class="status-message">
+                                                                    </div>
+                                                                    <script>jQuery("body").on("keypress", "input#user_login_3709062, input#cs_user_email709062, input#cs_organization_name709062, input#cs_employer_specialisms709062, input#cs_phone_no709062", function (e) {
+                                                                            if (e.which == "13") {
+                                                                                cs_registration_validation("https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php", "709062");
+                                                                                return false;
+                                                                            }
+                                                                        });</script>
+                                                                    <form method="post" class="wp-user-form demo_test"
+                                                                        id="wp_signup_form_709062"
+                                                                        enctype="multipart/form-data"><label
+                                                                            class="user"><input type="text"
+                                                                                placeholder="Username"
+                                                                                class="form-control"
+                                                                                id="user_login_3709062"
+                                                                                name="user_login709062" /></label><label
+                                                                            class="email"><input type="text"
+                                                                                placeholder="Email"
+                                                                                id="cs_user_email709062"
+                                                                                name="cs_user_email709062" /></label><label
+                                                                            class="password"><input type="password"
+                                                                                placeholder="Password"
+                                                                                id="cs_password709062"
+                                                                                name="cs_password709062" /></label><label
+                                                                            class="orgniz"><input type="text"
+                                                                                placeholder="Organization Name"
+                                                                                id="cs_organization_name709062"
+                                                                                name="cs_organization_name709062" /></label><input
+                                                                            type="hidden" id="cs_user_role_type709062"
+                                                                            class="cs-form-text cs-input"
+                                                                            name="cs_user_role_type709062"
+                                                                            value="employer" /><label
+                                                                            class="phone"><input type="text"
+                                                                                placeholder=" Phone Number"
+                                                                                id="cs_phone_no709062"
+                                                                                name="cs_phone_no709062" /></label>
+                                                                        <div class="side-by-side select-icon clearfix">
+                                                                            <div class="select-holder"><select required
+                                                                                    data-placeholder="Please Select specialism"
+                                                                                    class="multiple chosen-select form-control"
+                                                                                    multiple
+                                                                                    id="cs_employer_specialisms709062"
+                                                                                    name="cs_employer_specialisms709062[]"
+                                                                                    style="height:110px !important;">
+                                                                                    <option value="accountancy">
+                                                                                        Accountancy</option>
+                                                                                    <option value="banking">Banking
+                                                                                    </option>
+                                                                                    <option value="charity-voluntary">
+                                                                                        Charity &amp; Voluntary</option>
+                                                                                    <option value="digital-creative">
+                                                                                        Digital &amp; Creative</option>
+                                                                                    <option value="estate-agency">Estate
+                                                                                        Agency</option>
+                                                                                    <option value="graduate">Graduate
+                                                                                    </option>
+                                                                                    <option value="it-contractor">IT
+                                                                                        Contractor</option>
+                                                                                    <option value="legal-jobs">Legal
+                                                                                        jobs</option>
+                                                                                    <option value="leisure-tourism">
+                                                                                        Leisure &amp; Tourism</option>
+                                                                                    <option
+                                                                                        value="leisure-tourism-jobs">
+                                                                                        Leisure &amp; Tourism jobs
+                                                                                    </option>
+                                                                                    <option value="manufacturing-jobs">
+                                                                                        Manufacturing jobs</option>
+                                                                                    <option value="marketing-pr">
+                                                                                        Marketing &amp; PR</option>
+                                                                                    <option value="marketing-pr-jobs">
+                                                                                        Marketing &amp; PR jobs</option>
+                                                                                    <option value="media">Media</option>
+                                                                                    <option
+                                                                                        value="media-digital-creative-jobs">
+                                                                                        Media, Digital &amp; Creative
+                                                                                        jobs</option>
+                                                                                    <option value="motoring-automotive">
+                                                                                        Motoring &amp; Automotive
+                                                                                    </option>
+                                                                                    <option value="public-sector">Public
+                                                                                        Sector</option>
+                                                                                    <option
+                                                                                        value="purchase-ledger-clerk">
+                                                                                        Purchase Ledger Clerk</option>
+                                                                                    <option value="purchasing">
+                                                                                        Purchasing</option>
+                                                                                    <option value="retail">Retail
+                                                                                    </option>
+                                                                                    <option value="sales-marketing">
+                                                                                        Sales &amp; Marketing</option>
+                                                                                </select></div>
+                                                                        </div>
+                                                                        <div class="side-by-side select-icon clearfix">
+                                                                            <div class="select-holder"><select
+                                                                                    id="cs_allow_in_search709062"
+                                                                                    name="cs_allow_in_search709062"
+                                                                                    data-placeholder="Please Select"
+                                                                                    class="chosen-select">
+                                                                                    <option selected='selected'
+                                                                                        value="">Allow in search &amp;
+                                                                                        listing</option>
+                                                                                    <option value="yes">Yes</option>
+                                                                                    <option value="no">No</option>
+                                                                                </select></div>
+                                                                        </div>
+                                                                        <div class="terms"><label><input type="checkbox"
+                                                                                    name="jobhunt_check_terms709062"
+                                                                                    id="jobhunt_check_terms709062"> By
+                                                                                registering you confirm that you accept
+                                                                                the <a target="_blank"
+                                                                                    href="../terms-and-policies/index.html">Terms
+                                                                                    &amp; Conditions </a> and <a
+                                                                                    target="_blank"
+                                                                                    href="../privacy-policy/index.html">
+                                                                                    Privacy Policy </a></label></div>
+                                                                        <div class="recaptcha-reload"
+                                                                            id="recaptcha3_div">
+                                                                            <div class="g-recaptcha" data-theme="light"
+                                                                                id="recaptcha3"
+                                                                                data-sitekey="6Leiz_oiAAAAAM5NBsN9_SheKK8NfkyWreF7qRNO"
+                                                                                style="transform:scale(1.22);-webkit-transform:scale(1.22);transform-origin:0 0;-webkit-transform-origin:0 0;">
+                                                                            </div> <a class="recaptcha-reload-a"
+                                                                                href="javascript:void(0);"
+                                                                                onclick="captcha_reload('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php', 'recaptcha3');"><i
+                                                                                    class="icon-refresh2"></i>
+                                                                                Reload</a>
+                                                                        </div>
+                                                                        <div class="checks-holder"><label><input
+                                                                                    type="button" tabindex="103"
+                                                                                    onclick="javascript:cs_registration_validation('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php','709062')"
+                                                                                    class="user-submit cs-bgcolor acc-submit"
+                                                                                    id="submitbtn329364025"
+                                                                                    name="user-submit"
+                                                                                    value="Sign Up" /><input
+                                                                                    type="hidden" id="signin-role"
+                                                                                    name="role"
+                                                                                    value="cs_candidate" /><input
+                                                                                    type="hidden" name="action"
+                                                                                    value="cs_registration_validation" />
+                                                                            </label></div>
+                                                                    </form>
+                                                                    <div class="register_content"> </div>
+                                                                </div>
+                                                                <div role="tabpanel"
+                                                                    class="candidate-register tab-pane active"
+                                                                    id="candidate979273">
+                                                                    <div id="result_17495" class="status-message"></div>
+                                                                    <script>jQuery("body").on("keypress", "input#user_login417495, input#cs_user_email17495, input#cs_candidate_specialisms17495, input#cs_phone_no17495", function (e) {
+                                                                            if (e.which == "13") {
+                                                                                cs_registration_validation("https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php", "17495");
+                                                                                return false;
+                                                                            }
+                                                                        });</script>
+                                                                    <div class="login-with">
+                                                                        <div
+                                                                            class="footer-element comment-form-social-connect social_login_ui ">
+                                                                            <div class="social-login-errors"></div>
+                                                                            <div class="social_login_facebook_auth">
+                                                                                <input type="hidden" name="client_id"
+                                                                                    value="534331905174127" /><input
+                                                                                    type="hidden" name="redirect_uri"
+                                                                                    value="https://jobcareer.chimpgroup.com/index.php?social-login=facebook-callback" /><input
+                                                                                    type="hidden"
+                                                                                    data-api-error-msg="Contact site admin to provide a valid Facebook connect credentials."
+                                                                                    name="is_fb_valid" value="1" />
+                                                                            </div>
+                                                                            <div class="social_login_twitter_auth">
+                                                                                <input type="hidden" name="client_id"
+                                                                                    value="" /><input type="hidden"
+                                                                                    name="redirect_uri"
+                                                                                    value="https://jobcareer.chimpgroup.com/index.php?social-login=twitter" /><input
+                                                                                    type="hidden"
+                                                                                    data-api-error-msg="Contact site admin to provide a valid Twitter credentials."
+                                                                                    name="is_twitter_valid" value="1" />
+                                                                            </div>
+                                                                            <div class="social_login_google_auth">
+                                                                                <input type="hidden" name="client_id"
+                                                                                    value="492854955841-f54a0glq2et3u03suet9or0navgcnbvp.apps.googleusercontent.com" /><input
+                                                                                    type="hidden" name="redirect_uri"
+                                                                                    value="https://jobcareer.chimpgroup.com/wp-login.php?loginGoogle=1" /><input
+                                                                                    type="hidden"
+                                                                                    data-api-error-msg="Contact site admin to provide a valid Google credentials."
+                                                                                    name="is_google_auth" value="1" />
+                                                                            </div>
+                                                                            <div class="social_login_linkedin_auth">
+                                                                                <input type="hidden" id="ltype"
+                                                                                    name="ltype"
+                                                                                    value="initiate" /><input
+                                                                                    type="hidden" name="client_id"
+                                                                                    value="864yreg02qryd4" /><input
+                                                                                    type="hidden" name="redirect_uri"
+                                                                                    value="https://jobcareer.chimpgroup.com/index.php?social-login=linkedin" /><input
+                                                                                    type="hidden"
+                                                                                    data-api-error-msg="Contact site admin to provide a valid Linkedin credentials."
+                                                                                    name="is_linkedin_auth" value="" />
+                                                                            </div>
+                                                                            <div class="social-media">
+
+                                                                                <ul>
+                                                                                    <li><a href="javascript:void(0);"
+                                                                                            title="Facebook"
+                                                                                            data-original-title="Facebook"
+                                                                                            class="social_login_login_facebook facebook"><span
+                                                                                                class="social-mess-top fb-social-login"
+                                                                                                style="display:none">Please
+                                                                                                set API key</span><i
+                                                                                                class="icon-facebook2"></i>Sign
+                                                                                            in with facebook</a></li>
+                                                                                    <li><a href="javascript:void(0);"
+                                                                                            title="Twitter"
+                                                                                            data-original-title="twitter"
+                                                                                            class="social_login_login_twitter twitter"><span
+                                                                                                class="social-mess-top tw-social-login"
+                                                                                                style="display:none">Please
+                                                                                                set API key</span><i
+                                                                                                class="icon-twitter2"></i>Sign
+                                                                                            in with twitter</a></li>
+                                                                                    <li><a href="javascript:void(0);"
+                                                                                            id="googlesignup2820"
+                                                                                            data-client_id="884989793352-7cb5kia89ilb8f1n6m7367k2ag47crjn.apps.googleusercontent.com"
+                                                                                            data-callback="onSuccessGooglelogin"
+                                                                                            rel="nofollow"
+                                                                                            title="google-sinin"
+                                                                                            data-original-title="google-plus"
+                                                                                            class=" gplus g_id_signin"><span
+                                                                                                class="social-mess-top gplus-social-login aaaaaaa"
+                                                                                                style="display:none">Please
+                                                                                                set API key</span><i
+                                                                                                class="icon-google"></i>Sign
+                                                                                            In With Google</a></li>
+                                                                                    <script>
+
+
+                                                                                        element = document.getElementById('googlesignup2820');
+                                                                                    </script>
+                                                                                    <li><a href="javascript:void(0);"
+                                                                                            rel="nofollow"
+                                                                                            title="linked-in"
+                                                                                            data-original-title="linked-in"
+                                                                                            class="social_login_login_linkedin linkedin"
+                                                                                            data-applyjobid=""><span
+                                                                                                class="social-mess-top linkedin-social-login"
+                                                                                                style="display:none">Please
+                                                                                                set API key</span><i
+                                                                                                class="icon-linkedin2"></i>Sign
+                                                                                            in with linkedin</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="cs-separator"><span>Or</span></div>
+                                                                    <form method="post" class="wp-user-form"
+                                                                        id="wp_signup_form_17495"
+                                                                        enctype="multipart/form-data"><label
+                                                                            class="user"><input type="text"
+                                                                                placeholder="Username"
+                                                                                id="user_login417495"
+                                                                                name="user_login17495" /></label><label
+                                                                            class="email"><input type="text"
+                                                                                placeholder="Email"
+                                                                                id="cs_user_email17495"
+                                                                                name="cs_user_email17495" /></label><label
+                                                                            class="password"><input type="password"
+                                                                                placeholder="Password"
+                                                                                id="cs_password17495"
+                                                                                name="cs_password17495" /></label><label
+                                                                            class="phone"><input type="text"
+                                                                                placeholder="Phone Number"
+                                                                                id="cs_phone_no17495"
+                                                                                name="cs_phone_no17495" /></label>
+                                                                        <div class="side-by-side select-icon clearfix">
+                                                                            <div class="select-holder"><select required
+                                                                                    data-placeholder="Please Select specialism"
+                                                                                    class="multiple chosen-select form-control"
+                                                                                    multiple
+                                                                                    id="cs_candidate_specialisms17495"
+                                                                                    name="cs_candidate_specialisms17495[]"
+                                                                                    style="height:110px !important;">
+                                                                                    <option value="accountancy">
+                                                                                        Accountancy</option>
+                                                                                    <option value="banking">Banking
+                                                                                    </option>
+                                                                                    <option value="charity-voluntary">
+                                                                                        Charity &amp; Voluntary</option>
+                                                                                    <option value="digital-creative">
+                                                                                        Digital &amp; Creative</option>
+                                                                                    <option value="estate-agency">Estate
+                                                                                        Agency</option>
+                                                                                    <option value="graduate">Graduate
+                                                                                    </option>
+                                                                                    <option value="it-contractor">IT
+                                                                                        Contractor</option>
+                                                                                    <option value="legal-jobs">Legal
+                                                                                        jobs</option>
+                                                                                    <option value="leisure-tourism">
+                                                                                        Leisure &amp; Tourism</option>
+                                                                                    <option
+                                                                                        value="leisure-tourism-jobs">
+                                                                                        Leisure &amp; Tourism jobs
+                                                                                    </option>
+                                                                                    <option value="manufacturing-jobs">
+                                                                                        Manufacturing jobs</option>
+                                                                                    <option value="marketing-pr">
+                                                                                        Marketing &amp; PR</option>
+                                                                                    <option value="marketing-pr-jobs">
+                                                                                        Marketing &amp; PR jobs</option>
+                                                                                    <option value="media">Media</option>
+                                                                                    <option
+                                                                                        value="media-digital-creative-jobs">
+                                                                                        Media, Digital &amp; Creative
+                                                                                        jobs</option>
+                                                                                    <option value="motoring-automotive">
+                                                                                        Motoring &amp; Automotive
+                                                                                    </option>
+                                                                                    <option value="public-sector">Public
+                                                                                        Sector</option>
+                                                                                    <option
+                                                                                        value="purchase-ledger-clerk">
+                                                                                        Purchase Ledger Clerk</option>
+                                                                                    <option value="purchasing">
+                                                                                        Purchasing</option>
+                                                                                    <option value="retail">Retail
+                                                                                    </option>
+                                                                                    <option value="sales-marketing">
+                                                                                        Sales &amp; Marketing</option>
+                                                                                </select></div>
+                                                                        </div><input type="hidden"
+                                                                            id="cs_user_role_type17495"
+                                                                            class="cs-form-text cs-input"
+                                                                            name="cs_user_role_type17495"
+                                                                            value="candidate" />
+                                                                        <div class="side-by-side select-icon clearfix">
+                                                                            <div class="select-holder"><select
+                                                                                    id="cs_allow_in_search17495"
+                                                                                    name="cs_allow_in_search17495"
+                                                                                    data-placeholder="Please Select"
+                                                                                    class="chosen-select">
+                                                                                    <option selected='selected'
+                                                                                        value="">Allow in search &amp;
+                                                                                        listing</option>
+                                                                                    <option value="yes">Yes</option>
+                                                                                    <option value="no">No</option>
+                                                                                </select></div>
+                                                                        </div>
+                                                                        <div class="terms"><label><input type="checkbox"
+                                                                                    name="jobhunt_check_terms17495"
+                                                                                    id="jobhunt_check_terms17495"> By
+                                                                                registering you confirm that you accept
+                                                                                the <a target="_blank"
+                                                                                    href="../terms-and-policies/index.html">
+                                                                                    Terms &amp; Conditions </a> and <a
+                                                                                    target="_blank"
+                                                                                    href="../privacy-policy/index.html">
+                                                                                    Privacy Policy </a></label></div>
+                                                                        <div class="input-holder recaptcha-reload"
+                                                                            id="recaptcha4_div">
+                                                                            <div class="g-recaptcha" data-theme="light"
+                                                                                id="recaptcha4"
+                                                                                data-sitekey="6Leiz_oiAAAAAM5NBsN9_SheKK8NfkyWreF7qRNO"
+                                                                                style="transform:scale(1.22);-webkit-transform:scale(1.22);transform-origin:0 0;-webkit-transform-origin:0 0;">
+                                                                            </div> <a class="recaptcha-reload-a"
+                                                                                href="javascript:void(0);"
+                                                                                onclick="captcha_reload('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php', 'recaptcha4');"><i
+                                                                                    class="icon-refresh2"></i>
+                                                                                Reload</a>
+                                                                        </div>
+                                                                        <div class="checks-holder"><label><input
+                                                                                    type="button" tabindex="103"
+                                                                                    onclick="javascript:cs_registration_validation('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php','17495')"
+                                                                                    class="user-submit cs-bgcolor acc-submit"
+                                                                                    id="submitbtn455396796"
+                                                                                    name="user-submit"
+                                                                                    value="Sign Up" /><input
+                                                                                    type="hidden" id="signup-role"
+                                                                                    name="role"
+                                                                                    value="cs_candidate" /><input
+                                                                                    type="hidden" name="action"
+                                                                                    value="cs_registration_validation" />
+                                                                            </label></div>
+                                                                    </form>
+                                                                    <div class="register_content"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="login"><a id="btn-header-main-login" data-target="#sign-in"
+                                                data-toggle="modal"
+                                                class="cs-login-switch cs-bgcolor visible-xs visible-sm" href="#"><i
+                                                    class="icon-login"></i>Sign in</a>
+                                            <div class="modal fade" id="sign-in" tabindex="-1" role="dialog"
+                                                aria-labelledby="myModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="login-form cs-login-pbox login-form-id-17495">
+                                                                <div class="modal-header">
+                                                                    <a class="close" data-dismiss="modal">&times;</a>
+                                                                    <h4 class="modal-title">User Login</h4>
+                                                                </div>
+                                                                <div class="status status-message"></div>
+                                                                <script>jQuery("body").on("keypress", "input#user_login17495, input#user_pass17495", function (e) {
+                                                                        if (e.which == "13") {
+                                                                            cs_user_authentication("https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php", "17495");
+                                                                            return false;
+                                                                        }
+                                                                    });</script>
+                                                                <form method="post" class="wp-user-form webkit"
+                                                                    id="ControlForm_17495"><label class="user"><input
+                                                                            type="text" tabindex="11"
+                                                                            placeholder="Username" class="form-control"
+                                                                            id="user_login17495"
+                                                                            name="user_login" /></label><label
+                                                                        class="password"><input type="password"
+                                                                            tabindex="12" size="20"
+                                                                            onfocus="if(this.value =='Password') { this.value = ''; }"
+                                                                            onblur="if(this.value == '') { this.value ='Password'; }"
+                                                                            class="form-control" id="user_pass17495"
+                                                                            name="user_pass"
+                                                                            value="Password" /></label><label><input
+                                                                            type="button"
+                                                                            onclick="javascript:cs_user_authentication('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php','17495')"
+                                                                            class="cs-bgcolor" name="user-submit"
+                                                                            value="Log in" /><input type="hidden"
+                                                                            id="redirect_to" name="redirect_to"
+                                                                            value="index.html" /><input type="hidden"
+                                                                            id="user-cookie" name="user-cookie"
+                                                                            value="1" /><input type="hidden"
+                                                                            name="action" value="ajax_login" /><input
+                                                                            type="hidden" id="login" name="login"
+                                                                            value="login" />
+
+                                                                    </label></form>
+                                                                <div class="forget-password"><i class="icon-help"></i><a
+                                                                        class="cs-forgot-switch">Forgot Password?</a>
+                                                                </div>
+                                                                <div class="apply-without-login"></div>
+                                                                <div class="cs-separator"><span>Or</span></div>
+                                                                <div
+                                                                    class="footer-element comment-form-social-connect social_login_ui ">
+                                                                    <div class="social-login-errors"></div>
+                                                                    <div class="social_login_facebook_auth">
+                                                                        <input type="hidden" name="client_id"
+                                                                            value="534331905174127" /><input
+                                                                            type="hidden" name="redirect_uri"
+                                                                            value="https://graph.facebook.com/oauth/authorize?client_id=534331905174127&amp;redirect_uri=https%3A%2F%2Fjobcareer.chimpgroup.com%2Fwp-content%2Fplugins%2Fwp-jobhunt%2Ftemplates%2Felements%2Flogin%2Fcs-social-login%2Ffacebook%2Fcallback.php&amp;scope=email" /><input
+                                                                            type="hidden"
+                                                                            data-api-error-msg="Contact site admin to provide a valid Facebook connect credentials."
+                                                                            name="is_fb_valid" value="1" />
+                                                                    </div>
+                                                                    <div class="social_login_twitter_auth">
+                                                                        <input type="hidden" name="client_id"
+                                                                            value="" /><input type="hidden"
+                                                                            name="redirect_uri"
+                                                                            value="../index1d96.html?social-login=twitter" /><input
+                                                                            type="hidden"
+                                                                            data-api-error-msg="Contact site admin to provide a valid Twitter credentials."
+                                                                            name="is_twitter_valid" value="1" />
+                                                                    </div>
+                                                                    <div class="social_login_google_auth">
+                                                                        <input type="hidden" name="client_id"
+                                                                            value="492854955841-f54a0glq2et3u03suet9or0navgcnbvp.apps.googleusercontent.com" /><input
+                                                                            type="hidden" name="redirect_uri"
+                                                                            value="../wp-login3a08.html?loginGoogle=1" /><input
+                                                                            type="hidden"
+                                                                            data-api-error-msg="Contact site admin to provide a valid Google credentials."
+                                                                            name="is_google_auth" value="1" />
+                                                                    </div>
+                                                                    <div class="social_login_linkedin_auth">
+                                                                        <input type="hidden" id="ltype" name="ltype"
+                                                                            value="initiate" /><input type="hidden"
+                                                                            name="client_id"
+                                                                            value="864yreg02qryd4" /><input
+                                                                            type="hidden" name="redirect_uri"
+                                                                            value="../index41ee.html?social-login=linkedin" /><input
+                                                                            type="hidden"
+                                                                            data-api-error-msg="Contact site admin to provide a valid Linkedin credentials."
+                                                                            name="is_linkedin_auth" value="" />
+                                                                    </div>
+                                                                    <div class="social-media">
+
+                                                                        <ul>
+                                                                            <li><a href="javascript:void(0);"
+                                                                                    title="Facebook"
+                                                                                    data-original-title="Facebook"
+                                                                                    class="social_login_login_facebook facebook"><span
+                                                                                        class="social-mess-top fb-social-login"
+                                                                                        style="display:none">Please set
+                                                                                        API key</span><i
+                                                                                        class="icon-facebook2"></i>Sign
+                                                                                    in with facebook</a></li>
+                                                                            <li><a href="javascript:void(0);"
+                                                                                    title="Twitter"
+                                                                                    data-original-title="twitter"
+                                                                                    class="social_login_login_twitter twitter"><span
+                                                                                        class="social-mess-top tw-social-login"
+                                                                                        style="display:none">Please set
+                                                                                        API key</span><i
+                                                                                        class="icon-twitter2"></i>Sign
+                                                                                    in with twitter</a></li>
+                                                                            <li><a href="javascript:void(0);"
+                                                                                    id="googlesignin8946"
+                                                                                    data-client_id="884989793352-7cb5kia89ilb8f1n6m7367k2ag47crjn.apps.googleusercontent.com"
+                                                                                    data-callback="onSuccessGooglelogin"
+                                                                                    rel="nofollow" title="google-sinin"
+                                                                                    data-original-title="google-plus"
+                                                                                    class=" gplus g_id_signin"><span
+                                                                                        class="social-mess-top gplus-social-login"
+                                                                                        style="display:none">Please set
+                                                                                        API key</span><i
+                                                                                        class="icon-google"></i>Sign In
+                                                                                    With Google</a></li>
+                                                                            <div id="g_id_onload" style="display:none;"
+                                                                                data-client_id="492854955841-f54a0glq2et3u03suet9or0navgcnbvp.apps.googleusercontent.com"
+                                                                                data-callback="onSuccessGooglelogin">
+                                                                            </div>
+                                                                            <script>
+
+
+                                                                                function onSuccessGooglelogin(response) {
+                                                                                    var responsePayload = jwt_decode(response.credential);
+                                                                                    console.log(responsePayload);
+                                                                                    var google_user_id = responsePayload.sub;
+                                                                                    var google_full_name = responsePayload.name;
+                                                                                    var google_given_name = responsePayload.given_name;
+                                                                                    var google_family_name = responsePayload.family_name;
+                                                                                    var google_image_url = responsePayload.picture;
+                                                                                    var google_email_address = responsePayload.email;
+                                                                                    var dataString = 'id=' + google_user_id + '&full_name=' + google_full_name + '&given_name=' + google_given_name + '&family_name=' + google_family_name + '&image_url=' + google_image_url + '&email_address=' + google_email_address + '&action=google_api_login';
+                                                                                    jQuery.ajax({
+                                                                                        type: "POST",
+                                                                                        url: jobhunt_globals.ajax_url,
+                                                                                        data: dataString,
+                                                                                        success: function (response) {
+                                                                                            console.log(response);
+                                                                                            if (response == 'Loggedin') {
+                                                                                                location.reload();
+                                                                                            }
+                                                                                        }
+                                                                                    });
+                                                                                }
+
+
+
+                                                                                //jQuery(document).ready(function() {
+                                                                                jQuery(document).on('click', '.googleloginapicallback', function () {
+                                                                                    //var googleUser = {};
+                                                                                    console.log('testing00000');
+                                                                                    gapi.load('auth2', function () {
+                                                                                        auth2 = gapi.auth2.init({
+                                                                                            client_id: '884989793352-7cb5kia89ilb8f1n6m7367k2ag47crjn.apps.googleusercontent.com',
+                                                                                            cookiepolicy: 'single_host_origin',
+                                                                                            scope: 'email'
+                                                                                        });
+                                                                                        auth2.attachClickHandler(element3, {},
+                                                                                            function (googleUser) {
+                                                                                                console.log('testing');
+                                                                                                var profile = googleUser.getBasicProfile();
+                                                                                                var dataString = 'id=' + profile.getId() + '&full_name=' + profile.getName() + '&given_name=' + profile.getGivenName() + '&family_name=' + profile.getFamilyName() + '&image_url=' + profile.getImageUrl() + '&email_address=' + profile.getEmail() + '&action=google_api_login';
+                                                                                                jQuery.ajax({
+                                                                                                    type: "POST",
+                                                                                                    url: jobhunt_globals.ajax_url,
+                                                                                                    data: dataString,
+                                                                                                    success: function (response) {
+                                                                                                        if (response == 'Loggedin') {
+                                                                                                            location.reload();
+                                                                                                        }
+                                                                                                    }
+                                                                                                });
+                                                                                            }, function (error) {
+                                                                                                console.log('Sign-in error', error);
+                                                                                            }
+                                                                                        );
+                                                                                    });
+                                                                                });
+                                                                                element3 = document.getElementById('googlesignin8946');
+                                                                            </script>
+                                                                            <li><a href="javascript:void(0);"
+                                                                                    rel="nofollow" title="linked-in"
+                                                                                    data-original-title="linked-in"
+                                                                                    class="social_login_login_linkedin linkedin"
+                                                                                    data-applyjobid=""><span
+                                                                                        class="social-mess-top linkedin-social-login"
+                                                                                        style="display:none">Please set
+                                                                                        API key</span><i
+                                                                                        class="icon-linkedin2"></i>Sign
+                                                                                    in with linkedin</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-apply-job" id="without-login-switch"
+                                                            style="display:none;">
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close"><span
+                                                                    aria-hidden="true">&times;</span></button>
+                                                            <h4 class="modal-title">apply for job</h4>
+                                                            <div class="cs-profile-contact-detail cs-contact-modal"
+                                                                data-adminurl="https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php"
+                                                                id="logout">
+                                                                <form id="apply-job-292" class="apply-job" action="#"
+                                                                    method="post" enctype="multipart/form-data">
+                                                                    <div class="apply-job-response error-msg">
+                                                                    </div>
+                                                                    <div class="input-filed">
+                                                                        <label>FUll Name<span
+                                                                                class="required">*</span></label>
+                                                                        <input type="text" class="cs-required"
+                                                                            id="fullname_292" name="fullname" />
+                                                                    </div>
+                                                                    <div class="input-filed">
+                                                                        <label>Email<span
+                                                                                class="required">*</span></label>
+                                                                        <input type="text" class="cs-required"
+                                                                            id="email_292" name="email" />
+                                                                    </div>
+                                                                    <div class="input-filed">
+                                                                        <label>Phone Number<span
+                                                                                class="required">*</span></label>
+                                                                        <input type="text"
+                                                                            onkeyup="check_number_field_validation('292', this);"
+                                                                            class="cs-required" id="phone_num292"
+                                                                            name="phone" />
+                                                                    </div>
+                                                                    <div class="input-filed">
+                                                                        <label>Cover Letter<span
+                                                                                class="required">*</span></label>
+                                                                        <textarea rows="5" placeholder="Write here..."
+                                                                            onkeyup="check_character_length('292');"
+                                                                            id="cover_letter_292"
+                                                                            name="cover_letter"></textarea>
+                                                                        <div class="length cover-letter-length">
+                                                                            <div class="characters-holder">
+                                                                                <span>Min characters: 10</span>
+                                                                                <span>Max characters: 500</span>
+                                                                            </div>
+                                                                            <div class="remaining-characters"
+                                                                                style="display:none;"><span>500</span>
+                                                                                characters remaining</div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="input-filed">
+                                                                        <div class="cs-img-detail resume-upload">
+                                                                            <div class="inner-title">
+                                                                                <label>Your CV<span
+                                                                                        class="required">*</span></label>
+
+                                                                            </div>
+                                                                            <div class="upload-btn-div">
+                                                                                <div class="dragareamain"
+                                                                                    style="padding-bottom:0px;">
+                                                                                    <script type="text/ecmascript">
+                                                                                        jQuery(document).ready(function () {
+                                                                                            jQuery('.cs-uploadimg').change(function (e) {
+                                                                                                var img = URL.createObjectURL(e.target.files[0]);
+                                                                                                //var img = URL.createObjectURL(e.target.files[0]['type']);
+                                                                                                jQuery('#cs_candidate_cv').attr('value', img);
+                                                                                            });
+                                                                                        });
+                                                                                    </script>
+
+                                                                                    <div
+                                                                                        class="fileUpload uplaod-btn btn csborder-color cs-color">
+                                                                                        <span
+                                                                                            class="cs-color">Browse</span>
+                                                                                        <label class="browse-icon">
+                                                                                            <input type="file"
+                                                                                                onchange="checkName(this, 'cs_candidate_cv', 'button_action')"
+                                                                                                class="upload cs-uploadimg cs-color csborder-color"
+                                                                                                id="media_upload"
+                                                                                                name="media_upload"
+                                                                                                value="Browse" />
+                                                                                        </label>
+                                                                                    </div>
+
+                                                                                    <div id="selecteduser-cv">
+                                                                                        <input type="hidden"
+                                                                                            id="cs_candidate_cv"
+                                                                                            name="cs_candidate_cv" />
+                                                                                        <div class="alert alert-dismissible user-resume"
+                                                                                            id="cs_candidate_cv_box">
+                                                                                            <div>
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <span
+                                                                                    class="cs-status-msg-cv-upload">Suitable
+                                                                                    files are .doc,docx,rft,pdf &amp;
+                                                                                    .pdf</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="submit-btn input-button-loader"
+                                                                        id="apply_job_292">
+                                                                        <a class="btn-without-login"
+                                                                            onclick="jobhunt_add_proposal('https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php', '292', this)">
+                                                                            <span>
+                                                                                <i class="icon-briefcase4"></i>
+                                                                            </span>Apply Now </a>
+                                                                        <input type="hidden" id="post_id_292"
+                                                                            name="post_id" value="292" /><input
+                                                                            type="hidden" id="action292" name="action"
+                                                                            value="cs_add_applied_job_withoutlogin_to_usermeta" />
+                                                                        <a class="cs-bgcolor cs-wlogin-switch">Login
+                                                                            Here</a>
+                                                                        <div class="apply-loader"></div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="content-style-form cs-forgot-pbox content-style-form-2"
+                                                            style="display:none;">
+                                                            <div class="modal-header">
+                                                                <h4>Forgot Password</h4>
+                                                                <a class="close" data-dismiss="modal">&times;</a>
+                                                            </div>
+                                                            <div id="cs-result-86195282"></div>
+                                                            <div class="login-form-id-86195282">
+                                                                <form class="user_form" id="wp_pass_reset_86195282"
+                                                                    method="post" style="display:block">
+                                                                    <div class="filed-border">
+                                                                        <div class="input-holder">
+                                                                            <i class="icon-envelope4"></i>
+                                                                            <input type="text"
+                                                                                placeholder="Enter Username / Email Address..."
+                                                                                class="form-control user-name"
+                                                                                id="user_input86195282"
+                                                                                name="user_input" /><input type="hidden"
+                                                                                class="form-control" name="type"
+                                                                                value="popup" /><input type="hidden"
+                                                                                class="form-control"
+                                                                                name="current_page_id"
+                                                                                value="292" /><input type="hidden"
+                                                                                name="home_url" value="../index.html" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <label>
+                                                                        <input type="submit"
+                                                                            class="reset_password cs-bgcolor"
+                                                                            name="submit" value="Send Email" /> </label>
+                                                                    <a class="cs-bgcolor cs-login-switch">Login Here</a>
+                                                                </form>
+                                                                <form class="user_form" id="wp_pass_lost_86195282"
+                                                                    method="post" style="display:none">
+                                                                    <div class="filed-border">
+                                                                        <div class="input-holder">
+                                                                            <i class="icon-lock2"></i>
+                                                                            <input type="password"
+                                                                                placeholder="Enter new password"
+                                                                                class="form-control new-pass"
+                                                                                id="new_pass86195282" name="new_pass" />
+                                                                        </div>
+                                                                        <div class="input-holder">
+                                                                            <i class="icon-lock2"></i>
+                                                                            <input type="password"
+                                                                                placeholder="Confirm new password"
+                                                                                class="form-control confirm-new-pass"
+                                                                                id="confirm_new_pass86195282"
+                                                                                name="confirm_new_pass" /><input
+                                                                                type="hidden" class="form-control"
+                                                                                name="user_login" value="" /><input
+                                                                                type="hidden" class="form-control"
+                                                                                name="reset_pass_key" value="" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <label>
+                                                                        <input type="submit"
+                                                                            class="reset_password cs-bgcolor"
+                                                                            name="submit" value="Send Email" /> </label>
+                                                                    <a class="cs-bgcolor cs-login-switch">Login Here</a>
+                                                                </form>
+                                                            </div>
+                                                            <script type="text/javascript">
+                                                                var $ = jQuery;
+                                                                jQuery("#wp_pass_reset_86195282").submit(function () {
+                                                                    jQuery('#cs-result-86195282').html('<i class="icon-spinner8 icon-spin"></i>').fadeIn();
+                                                                    var input_data = $('#wp_pass_reset_86195282').serialize() + '&action=cs_get_new_pass';
+                                                                    jQuery.ajax({
+                                                                        type: "POST",
+                                                                        url: "https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php",
+                                                                        data: input_data,
+                                                                        success: function (msg) {
+                                                                            jQuery('#cs-result-86195282').html(msg);
+                                                                        }
+                                                                    });
+                                                                    return false;
+                                                                });
+                                                                jQuery("#wp_pass_lost_86195282").submit(function () {
+                                                                    jQuery('#cs-result-86195282').html('<i class="icon-spinner8 icon-spin"></i>').fadeIn();
+                                                                    var input_data = $('#wp_pass_lost_86195282').serialize() + '&action=cs_reset_pass';
+                                                                    jQuery.ajax({
+                                                                        type: "POST",
+                                                                        url: "https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php",
+                                                                        data: input_data,
+                                                                        success: function (msg) {
+                                                                            jQuery('#cs-result-86195282').html(msg);
+                                                                        }
+                                                                    });
+                                                                    return false;
+                                                                });
+                                                                jQuery(document).on('click', '.cs-forgot-switch', function () {
+                                                                    jQuery('.cs-login-pbox').hide();
+                                                                    jQuery('.user-name').val('');
+                                                                    jQuery('.new-pass').val('');
+                                                                    jQuery('.confirm-new-pass').val('');
+                                                                    jQuery('.cs-forgot-pbox').show();
+                                                                    jQuery('#without-login-switch').hide();
+                                                                });
+                                                                jQuery('.user-forgot-password-page').on('click', function (e) {
+                                                                    jQuery('.user-name').val('');
+                                                                    jQuery('.new-pass').val('');
+                                                                    jQuery('.confirm-new-pass').val('');
+                                                                });
+                                                                jQuery(document).on('click', '.cs-login-switch', function () {
+                                                                    jQuery('.cs-forgot-pbox').hide();
+                                                                    jQuery('.cs-login-pbox').show();
+                                                                    jQuery('#without-login-switch').hide();
+                                                                    jQuery('.apply-without-login').html('');
+                                                                    jQuery('.apply-without-login').hide();
+
+                                                                });
+
+                                                            </script>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <ul class="nav navbar-nav">
                                         <li id="menu-item-170"
                                             class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
-                                            <a href="../jobs-classic-view/index.html" class="navMenu browseJobs"
-                                                style="color: #55a747 !important;">Browse
-                                                Jobs</a>
+                                            <a href="#">Browse Jobs</a>
+                                            <ul class="dropdown-menu">
+                                                <li id="menu-item-15455"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
+                                                    <a href="../jobs-classic-view/index.html">Jobs Listing</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li id="menu-item-177"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                            <a href="../jobs-grid-view/index.html">Jobs List &#8211;
+                                                                Grid</a></li>
+                                                        <li id="menu-item-1299"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                            <a href="../jobs-list-modern/index.html">Jobs List &#8211;
+                                                                Modern</a></li>
+                                                        <li id="menu-item-174"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                            <a href="../jobs-classic-view/index.html">Jobs List &#8211;
+                                                                Classic</a></li>
+                                                        <li id="menu-item-17238"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                            <a href="../jobs-detail-list/index.html">Jobs List &#8211;
+                                                                Detail</a></li>
+                                                    </ul> <!--End Sub Menu -->
+                                                </li>
+                                                <li id="menu-item-453"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
+                                                    <a href="#">Job Page</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li id="menu-item-1786"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-jobs">
+                                                            <a
+                                                                href="../jobs/senior-rolling-stock-technician/index.html">Job
+                                                                Detail &#8211; 2 Column</a></li>
+                                                        <li id="menu-item-454"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-jobs">
+                                                            <a
+                                                                href="../jobs/application-developer-for-android/index.html">Job
+                                                                Detail &#8211; 3 Column</a></li>
+                                                        <li id="menu-item-457"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-jobs">
+                                                            <a href="../jobs/c-developer-senior-c-net/index.html">Job
+                                                                Detail &#8211; Fancy</a></li>
+                                                        <li id="menu-item-1787"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-jobs">
+                                                            <a
+                                                                href="../jobs/graduate-inside-sales-executive/index.html">Job
+                                                                Detail &#8211; Classic</a></li>
+                                                        <li id="menu-item-1785"
+                                                            class="menu-item  menu-item-type-post_type  menu-item-object-jobs">
+                                                            <a
+                                                                href="../jobs/graduate-inside-sales-representative/index.html">Job
+                                                                Detail -Map View</a></li>
+                                                    </ul> <!--End Sub Menu -->
+                                                </li>
+                                                <li id="menu-item-185"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
+                                                    <a href="#">Jobs By Cities</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li id="menu-item-186"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/indexde0a.html?job_title=&amp;specialisms=&amp;location=Aberdeen">Aberdeen</a>
+                                                        </li>
+                                                        <li id="menu-item-187"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/index2504.html?job_title=&amp;specialisms=&amp;location=Armagh">Armagh</a>
+                                                        </li>
+                                                        <li id="menu-item-188"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/index20c9.html?job_title=&amp;specialisms=&amp;location=Belfast">Belfast</a>
+                                                        </li>
+                                                        <li id="menu-item-189"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/index47fa.html?job_title=&amp;specialisms=&amp;location=Derry">Derry</a>
+                                                        </li>
+                                                        <li id="menu-item-190"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/index67f4.html?job_title=&amp;specialisms=&amp;location=London">London</a>
+                                                        </li>
+                                                    </ul> <!--End Sub Menu -->
+                                                </li>
+                                                <li id="menu-item-179"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
+                                                    <a href="#">Jobs By Types</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li id="menu-item-180"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/index98c4.html?job_type=freelance">Freelance</a>
+                                                        </li>
+                                                        <li id="menu-item-181"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/index85e9.html?job_type=full-time">Full
+                                                                Time</a></li>
+                                                        <li id="menu-item-182"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/indexada4.html?job_type=part-time">Part
+                                                                Time</a></li>
+                                                        <li id="menu-item-183"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/indexa8f6.html?job_type=internship">Internship</a>
+                                                        </li>
+                                                        <li id="menu-item-184"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../jobs-simple-list-view/index4876.html?job_type=temporary">Temporary</a>
+                                                        </li>
+                                                    </ul> <!--End Sub Menu -->
+                                                </li>
+                                            </ul> <!--End Sub Menu -->
                                         </li>
-                                        <li id="menu-item-170"
+                                        <li id="menu-item-202"
                                             class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
-                                            <a href="../about-us/index.html" class="navMenu">About Us</a>
+                                            <a href="#">Employers</a>
+                                            <ul class="dropdown-menu">
+                                                <li id="menu-item-208"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../employer-simple/index.html">Employer Simple</a></li>
+                                                <li id="menu-item-558"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../employer-list-view/index.html">Employer List</a></li>
+                                                <li id="menu-item-207"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../employer-listing/index.html">Alphabatic Listing</a></li>
+                                                <li id="menu-item-209"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom"><a
+                                                        href="../employer/martinhamilton/index.html">Employer Detail</a>
+                                                </li>
+                                                <li id="menu-item-1318"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
+                                                    <a href="../employer-account/index.html">Employer Dashboard</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li id="menu-item-1319"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../employer-account/index5fec.html?profile_tab=jobs">Jobs
+                                                                Management</a></li>
+                                                        <li id="menu-item-1320"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../employer-account/indexf2b4.html?profile_tab=resumes">Resumes
+                                                                Shortlist</a></li>
+                                                        <li id="menu-item-1321"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../employer-account/index3ffc.html?profile_tab=packages">Job/CV
+                                                                Packages</a></li>
+                                                        <li id="menu-item-1322"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../employer-account/index88f1.html?profile_tab=transactions">Transactions</a>
+                                                        </li>
+                                                        <li id="menu-item-1323"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../employer-account/indexb722.html?profile_tab=profile">Account
+                                                                Settings</a></li>
+                                                    </ul> <!--End Sub Menu -->
+                                                </li>
+                                            </ul> <!--End Sub Menu -->
                                         </li>
-                                        <li id="menu-item-170"
+                                        <li id="menu-item-210"
                                             class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
-                                            <a href="../frequently-asked-questions/index.html" class="navMenu">FAQ's</a>
+                                            <a href="#">Candidates</a>
+                                            <ul class="dropdown-menu">
+                                                <li id="menu-item-1286"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../candidates-list-with-map/index.html">List with Map</a>
+                                                </li>
+                                                <li id="menu-item-1287"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../candidates-list-with-filterable/index.html">List with
+                                                        Filters</a></li>
+                                                <li id="menu-item-1719"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom"><a
+                                                        href="../candidate/wanda-willis/index.html">Candidate Detail</a>
+                                                </li>
+                                                <li id="menu-item-1310"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
+                                                    <a href="../candidate-dashboard/indexb722.html?profile_tab=profile">Candidate
+                                                        Dashboard</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li id="menu-item-1314"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../candidate-dashboard/index1828.html?profile_tab=shortlisted-jobs">Job
+                                                                Bookmarks</a></li>
+                                                        <li id="menu-item-1315"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../candidate-dashboard/indexe8ac.html?profile_tab=resume">Resume
+                                                                Submit</a></li>
+                                                        <li id="menu-item-1316"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../candidate-dashboard/index0c37.html?profile_tab=applied-jobs">Applied
+                                                                Jobs List</a></li>
+                                                        <li id="menu-item-1317"
+                                                            class="menu-item  menu-item-type-custom  menu-item-object-custom">
+                                                            <a
+                                                                href="../candidate-dashboard/indexb722.html?profile_tab=profile">Account
+                                                                Settings</a></li>
+                                                    </ul> <!--End Sub Menu -->
+                                                </li>
+                                            </ul> <!--End Sub Menu -->
                                         </li>
-                                        <li id="menu-item-170"
+                                        <li id="menu-item-1494"
                                             class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
-                                            <a href="../terms-and-policies/index.html" class="navMenu">Terms
-                                                And
-                                                Policies</a>
+                                            <a href="#">Products</a>
+                                            <ul class="dropdown-menu">
+                                                <li id="menu-item-1501"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../cv-packages/index.html">CV Packages</a></li>
+                                                <li id="menu-item-1502"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../jobs-packages/index.html">Job Packages</a></li>
+                                                <li id="menu-item-10171"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../job-apply-packages/index.html">Job Apply Packages</a>
+                                                </li>
+                                            </ul> <!--End Sub Menu -->
                                         </li>
-                                        <li id="menu-item-170"
+                                        <li id="menu-item-1729"
                                             class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
-                                            <a href="#" class="navMenu">Disclaimers</a>
-                                        </li> <!--End Sub Menu -->
+                                            <a href="#">News</a>
+                                            <ul class="dropdown-menu">
+                                                <li id="menu-item-1728"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../news-large/index.html">News Large</a></li>
+                                                <li id="menu-item-1727"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../news-medium/index.html">News Medium</a></li>
+                                                <li id="menu-item-1493"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../news-grid/index.html">News Grid</a></li>
+                                            </ul> <!--End Sub Menu -->
                                         </li>
-
-
+                                        <li id="menu-item-191"
+                                            class="menu-item  menu-item-type-custom  menu-item-object-custom  menu-item-has-children">
+                                            <a href="#">Pages</a>
+                                            <ul class="dropdown-menu">
+                                                <li id="menu-item-976"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../about-us/index.html">About Us</a></li>
+                                                <li id="menu-item-773"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../contact-us/index.html">Contact Us</a></li>
+                                                <li id="menu-item-193"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../frequently-asked-questions/index.html">FAQ&#8217;s</a>
+                                                </li>
+                                                <li id="menu-item-194"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../register/index.html">Register</a></li>
+                                                <li id="menu-item-196"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../terms-and-policies/index.html">Terms &#038; Policies</a>
+                                                </li>
+                                                <li id="menu-item-197"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom"><a
+                                                        href="../index02b8.html?s=while&amp;lang=en">Search result</a>
+                                                </li>
+                                                <li id="menu-item-198"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom"><a
+                                                        href="../indexc4e0.html?s=No+Search+Result+Found">No search
+                                                        Result</a></li>
+                                                <li id="menu-item-200"
+                                                    class="menu-item  menu-item-type-custom  menu-item-object-custom"><a
+                                                        href="../404.html">404</a></li>
+                                            </ul> <!--End Sub Menu -->
+                                        </li>
+                                        <li id="menu-item-3158"
+                                            class="menu-item  menu-item-type-post_type  menu-item-object-page  menu-item-has-children">
+                                            <a href="../shop/index.html">Shop</a>
+                                            <ul class="dropdown-menu">
+                                                <li id="menu-item-3155"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../my-account/index.html">My Account</a></li>
+                                                <li id="menu-item-3156"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../checkout/index.html">Checkout</a></li>
+                                                <li id="menu-item-3157"
+                                                    class="menu-item  menu-item-type-post_type  menu-item-object-page">
+                                                    <a href="../cart/index.html">Cart</a></li>
+                                            </ul> <!--End Sub Menu -->
+                                        </li>
+                                        <li class="cs-login-area hidden-xs hidden-sm">
+                                            <div class="cs-loginsec">
+                                                <ul class="cs-drp-dwn">
+                                                    <li>
+                                                        <script>
+                                                            var recaptcha1;
+                                                            var recaptcha2;
+                                                            var recaptcha3;
+                                                            var recaptcha4;
+                                                            var cs_multicap = function () {
+                                                                //Render the recaptcha1 on the element with ID "recaptcha1"
+                                                                recaptcha3 = grecaptcha.render('recaptcha3', {
+                                                                    'sitekey': '6Leiz_oiAAAAAM5NBsN9_SheKK8NfkyWreF7qRNO', //Replace this with your Site key
+                                                                    'theme': 'light'
+                                                                });
+                                                                //Render the recaptcha2 on the element with ID "recaptcha2"
+                                                                recaptcha4 = grecaptcha.render('recaptcha4', {
+                                                                    'sitekey': '6Leiz_oiAAAAAM5NBsN9_SheKK8NfkyWreF7qRNO', //Replace this with your Site key
+                                                                    'theme': 'light'
+                                                                });
+                                                            };
+                                                        </script>
+                                                        <div class="user-account ">
+                                                            <div class="join-us"><i class="cs-color icon-pencil6"></i><a
+                                                                    class="join-us" class="cs-color"
+                                                                    data-target="#join-us" data-toggle="modal"
+                                                                    href="#">Join Us</a>
+                                                                <div class="login"><a id="btn-header-main-login"
+                                                                        data-target="#sign-in" data-toggle="modal"
+                                                                        class="cs-login-switch cs-bgcolor " href="#"><i
+                                                                            class="icon-login"></i>Sign in</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </nav>
 
@@ -752,36 +1923,14 @@
                 </div>
             </div>
         </header>
-        <div class="cs-subheader align-left  " style="background: #313540; padding-top:45px; padding-bottom:30px;  ">
+        <div class="cs-subheader align-left  "
+            style="background: #313540; min-height:!important; padding-top:45px; padding-bottom:30px;  ">
             <div class="container">
                 <div class="cs-page-title">
                     <h1 style="color:#ffffff !important">New York is Leading the Nation</h1>
                 </div>
                 <!--                        <div class="overlay" style="background:rgba(//,,,) !important"></div>-->
             </div>
-        </div>
-
-        <!-- Adds Section  -->
-        <div class="page-section  cs-page-sec-387984 " style="margin-top: -50px;">
-
-            <!-- Container Start -->
-            <div class="container ">
-                <div class="row">
-                    <div class="section-fullwidth col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="main-search has-bgcolor " style="background:#f5f6f8 !important;">
-                                    <div class="row verticalAds">
-                                        <img src="../img/verticalAds.png" alt="Adds" srcset="">
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
         <div class="main-section">
@@ -1116,7 +2265,68 @@
 
     </ul>
     </div>
+    <div id="comment" class="comment-form">
+        <div id="respond-comment">
 
+            <div id="respond" class="comment-respond">
+                <h3 id="reply-title" class="comment-reply-title">Leave us a comment <small><a rel="nofollow"
+                            id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel
+                            reply</a></small></h3>
+                <form action="https://jobcareer.chimpgroup.com/wp-comments-post.php" method="post" id="form-style row"
+                    class="form-holder contact-form">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="input-holder"> <textarea class="commenttextarea" rows="55" cols="15"
+                                    id="comment_mes" name="comment"></textarea></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="input-holder"> <i class="icon-user9"></i> <input type="text"
+                                    placeholder="Enter your Name" tabindex="1" class="nameinput vsmall" id="author"
+                                    name="author" value="" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="input-holder"> <i class="icon-envelope4"></i> <input type="text"
+                                    placeholder="Enter your Email" size="30" tabindex="2" class="emailinput vsmall"
+                                    id="email" name="email" value="" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="input-holder"><i class="icon-mobile4"></i> <input type="text"
+                                    placeholder="Enter your Phone" size="30" tabindex="3" class="websiteinput vsmall"
+                                    id="url" name="url" value="" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent"
+                            name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label
+                            for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the
+                            next time I comment.</label></p>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="input-button"><input name="submit" type="submit" id="cs-bg-color"
+                                    class="cs-bgcolor acc-submit" value="Submit" /> <input type='hidden'
+                                    name='comment_post_ID' value='292' id='comment_post_ID' />
+                                <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div><!-- #respond -->
+        </div>
+
+        <!-- Col Start -->
+    </div>
     </div>
     </div>
     <aside class="page-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -1217,188 +2427,67 @@
                 </nav>
             </div>
         </div>
-        <!-- Adds horizontal  -->
-        <div class="cs-listing-filters portraitAds">
-            <img src="../img/portraitAds.jpg" alt="Adds" srcset="">
-        </div>
-        <!-- Adds horizontal  -->
-        <div class="cs-listing-filters portraitAds">
-            <img src="../img/portraitAds.jpg" alt="Adds" srcset="">
+        <div class="widget widget_tag_cloud">
+            <div class="widget-title">
+                <h5>Latest Tags</h5>
+            </div>
+            <div class="tagcloud"><a href="../tag/adzuna/index.html"
+                    class="tag-cloud-link tag-link-169 tag-link-position-1" style="font-size: 8pt;"
+                    aria-label="Adzuna (1 item)">Adzuna</a>
+                <a href="../tag/career/index.html" class="tag-cloud-link tag-link-82 tag-link-position-2"
+                    style="font-size: 8pt;" aria-label="Career (1 item)">Career</a>
+                <a href="../tag/college/index.html" class="tag-cloud-link tag-link-66 tag-link-position-3"
+                    style="font-size: 22pt;" aria-label="College (8 items)">College</a>
+                <a href="../tag/facebook/index.html" class="tag-cloud-link tag-link-168 tag-link-position-4"
+                    style="font-size: 8pt;" aria-label="facebook (1 item)">facebook</a>
+                <a href="../tag/freedom/index.html" class="tag-cloud-link tag-link-80 tag-link-position-5"
+                    style="font-size: 8pt;" aria-label="Freedom (1 item)">Freedom</a>
+                <a href="../tag/glassdoor/index.html" class="tag-cloud-link tag-link-165 tag-link-position-6"
+                    style="font-size: 8pt;" aria-label="glassdoor (1 item)">glassdoor</a>
+                <a href="../tag/google/index.html" class="tag-cloud-link tag-link-167 tag-link-position-7"
+                    style="font-size: 8pt;" aria-label="google (1 item)">google</a>
+                <a href="../tag/indeed/index.html" class="tag-cloud-link tag-link-170 tag-link-position-8"
+                    style="font-size: 8pt;" aria-label="indeed (1 item)">indeed</a>
+                <a href="../tag/job/index.html" class="tag-cloud-link tag-link-67 tag-link-position-9"
+                    style="font-size: 22pt;" aria-label="Job (8 items)">Job</a>
+                <a href="../tag/jobboard/index.html" class="tag-cloud-link tag-link-164 tag-link-position-10"
+                    style="font-size: 8pt;" aria-label="jobboard (1 item)">jobboard</a>
+                <a href="../tag/job-board/index.html" class="tag-cloud-link tag-link-138 tag-link-position-11"
+                    style="font-size: 8pt;" aria-label="job board (1 item)">job board</a>
+                <a href="../tag/jobs2careers/index.html" class="tag-cloud-link tag-link-178 tag-link-position-12"
+                    style="font-size: 8pt;" aria-label="jobs2careers (1 item)">jobs2careers</a>
+                <a href="../tag/jobs-land/index.html" class="tag-cloud-link tag-link-81 tag-link-position-13"
+                    style="font-size: 8pt;" aria-label="Jobs Land (1 item)">Jobs Land</a>
+                <a href="../tag/monster/index.html" class="tag-cloud-link tag-link-166 tag-link-position-14"
+                    style="font-size: 8pt;" aria-label="monster (1 item)">monster</a>
+                <a href="../tag/nexxt/index.html" class="tag-cloud-link tag-link-175 tag-link-position-15"
+                    style="font-size: 8pt;" aria-label="Nexxt (1 item)">Nexxt</a>
+                <a href="../tag/reed/index.html" class="tag-cloud-link tag-link-171 tag-link-position-16"
+                    style="font-size: 8pt;" aria-label="reed (1 item)">reed</a>
+                <a href="../tag/search/index.html" class="tag-cloud-link tag-link-68 tag-link-position-17"
+                    style="font-size: 22pt;" aria-label="Search (8 items)">Search</a>
+                <a href="../tag/seek/index.html" class="tag-cloud-link tag-link-174 tag-link-position-18"
+                    style="font-size: 8pt;" aria-label="seek (1 item)">seek</a>
+                <a href="../tag/teacher/index.html" class="tag-cloud-link tag-link-69 tag-link-position-19"
+                    style="font-size: 22pt;" aria-label="Teacher (8 items)">Teacher</a>
+                <a href="../tag/totaljobs/index.html" class="tag-cloud-link tag-link-172 tag-link-position-20"
+                    style="font-size: 8pt;" aria-label="Totaljobs (1 item)">Totaljobs</a>
+                <a href="../tag/us-jobs/index.html" class="tag-cloud-link tag-link-176 tag-link-position-21"
+                    style="font-size: 8pt;" aria-label="US.jobs (1 item)">US.jobs</a>
+                <a href="../tag/workinstartups/index.html" class="tag-cloud-link tag-link-173 tag-link-position-22"
+                    style="font-size: 8pt;" aria-label="WorkInStartups (1 item)">WorkInStartups</a>
+                <a href="../tag/ziprecruiter/index.html" class="tag-cloud-link tag-link-177 tag-link-position-23"
+                    style="font-size: 8pt;" aria-label="ZipRecruiter (1 item)">ZipRecruiter</a>
+            </div>
         </div>
     </aside>
     </div>
     </div>
     </div>
     <div class="clearfix"></div>
-
-
-    <!-- Adds Section  -->
-    <div class="page-section  cs-page-sec-387984 ">
-
-        <!-- Container Start -->
-        <div class="container ">
-            <div class="row">
-                <div class="section-fullwidth col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="main-search has-bgcolor " style="background:#f5f6f8 !important;">
-                                <div class="row verticalAds">
-                                    <img src="../img/verticalAds.png" alt="Adds" srcset="">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- Footer -->
-
-    <footer id="footer">
-        <div class="cs-footer footer-v1 default-footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
-                            <div class="widget widget-newsletter fancy">
-                                <div class="widget-title">
-                                    <h5>NEWSLETTER</h5>
-                                </div>
-                                <div class="fieldset">
-                                    <p>Subscribe to JobCareer | Job Board Responsive WordPress Theme newsletter to get
-                                        the latest jobs posted, candidates ,and other latest news. stay updated.</p>
-                                    <form
-                                        action="javascript:jobcareer_mailchimp_submit('../wp-content/themes/jobcareer/index.html','2','https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php')"
-                                        id="mcform_2" class="cs-mailchimp" method="post">
-                                        <div class="clear"></div>
-
-                                        <input type="hidden" id="cs_list_id" name="cs_list_id" value="0" /></li>
-                                        </ul><input type="text"
-                                            onblur="if (this.value == '') {this.value = 'Enter your email address';}"
-                                            onfocus="if (this.value == 'Enter your email address') {this.value = '';}"
-                                            class="txt-bar vsmall" id="mc_email" name="mc_email"
-                                            value="Enter your email address" /></li>
-                                        </ul> <label>
-                                            <button type="submit" value="Submit"><i
-                                                    class="icon-angle-right"></i></button>
-                                        </label>
-                                    </form>
-                                    <div id="newsletter_mess_2" style="display:none" class="cs-error-msg"></div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
-                            <div class="widget widget_nav_menu">
-                                <div class="widget-title">
-                                    <h5>Frequently Asked Questions</h5>
-                                </div>
-                                <div class="menu-jobcareer-frequently-asked-questions-menu-container">
-                                    <ul id="menu-jobcareer-frequently-asked-questions-menu" class="menu">
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1410">
-                                            <a href="#">Privacy &#038; Security</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1411">
-                                            <a href="#">Terms of Service</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1412">
-                                            <a href="#">Communications</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1413">
-                                            <a href="#">Referral Terms</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1414">
-                                            <a href="#">Lending Licenses</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1415">
-                                            <a href="#">Disclaimers</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1416">
-                                            <a href="#">Support</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1417">
-                                            <a href="#">How It Works</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1418">
-                                            <a href="#">For Employers</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1419">
-                                            <a href="#">Underwriting</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1420">
-                                            <a href="#">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
-                            <div class="widget widget-text widget-contact-information">
-                                <div class="contact-info">
-                                    <div class="widget-title">
-                                        <h5>CONTACT US</h5>
-                                    </div>
-                                    <div class="widgettext">
-
-                                        <address>
-                                            <span>
-                                                Address: Schönhaus er Allee 167c 10435 Berlin, Germany<br />Phone:
-                                                +12139907<br>
-                                                Email: info@yoursite.com </span>
-                                        </address>
-                                        <ul class="social-media">
-                                            <li><a href="#" data-original-title="facebook"><i
-                                                        class="icon-facebook7"></i></a></li>
-                                            <li><a href="#" data-original-title="twitter"><i
-                                                        class=" icon-twitter6"></i></a></li>
-                                            <li><a href="#" data-original-title="instagram"><i
-                                                        class="icon-instagram"></i></a></li>
-                                            <li><a href="#" data-original-title="youtube"><i
-                                                        class="icon-youtube"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style="background-color:#1e1f21;" class="cs-copyright">
-                <div class="container">
-                    <div class="cs-copyright-area">
-                        <div class="row">
-                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-
-                                <div class="footer-links">
-                                    © 2023 JobCareer All rights reserved. Design by <a class="&#039;cs-color&#039;"
-                                        href="index.html#&#039;">Chimp Studio</a>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="back-to-top">
-                                    <a href="javascript:void(0);" style="color:#fff;">Back to top<i
-                                            class="icon-arrow-up7"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+     <!-- Footer -->
+     <div id="footerSection"></div>
+     <script src="footer.js"></script>
     <!-- Wrapper End -->
     </div>
 
@@ -1421,6 +2510,7 @@
     <link rel='stylesheet' id='rs-plugin-settings-css'
         href='../wp-content/plugins/revslider/public/assets/css/rs6db9d.css?ver=6.6.7' type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {}
     </style>
     <script type='text/javascript'
         src='../wp-content/plugins/jobhunt-indeed-jobs/assets/js/jobhunt-indeed-jobs-function2fe1.js?ver=jobhunt-indeed-jobs'
@@ -1535,5 +2625,6 @@
     </div>
 </body>
 
+<!-- Mirrored from jobcareer.chimpgroup.com/new-york-is-leading-the-nation/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 19:18:24 GMT -->
 
 </html>
