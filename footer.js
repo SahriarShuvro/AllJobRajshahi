@@ -6,30 +6,12 @@ document.getElementById("footerSection").innerHTML = `
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
-								<div class="widget widget-newsletter fancy">
-									<div class="widget-title">
-										<h5>NEWSLETTER</h5>
-									</div>
-									<div class="fieldset">
-										<p>Subscribe to JobCareer | Job Board Responsive WordPress Theme newsletter to get
-											the latest jobs posted, candidates ,and other latest news. stay updated.</p>
-										<form
-											action="javascript:jobcareer_mailchimp_submit('wp-content/themes/jobcareer/index.html','2','https://jobcareer.chimpgroup.com/wp-admin/admin-ajax.php')"
-											id="mcform_2" class="cs-mailchimp" method="post">
-											<div class="clear"></div>
-
-											<input type="hidden" id="cs_list_id" name="cs_list_id" value="0" /></li>
-											</ul><input type="text" onblur="if (this.value == '') {this.value = 'Enter your email address';}"
-												onfocus="if (this.value == 'Enter your email address') {this.value = '';}"
-												class="txt-bar vsmall" id="mc_email" name="mc_email" value="Enter your email address" /></li>
-											</ul> <label>
-												<button type="submit" value="Submit"><i class="icon-angle-right"></i></button>
-											</label>
-										</form>
-										<div id="newsletter_mess_2" style="display:none" class="cs-error-msg"></div>
-									</div>
-
-								</div>
+							<div class="logo">
+							<a href="../index.html" style="background: #fff; padding: 20px; border-radius: 2px;">
+								<img src="../wp-content/themes/jobcareer/assets/images/logo.png"
+									style="width:px; height: px;" alt="JobCareer">
+							</a>
+						</div>
 							</div>
 							<div class="col-lg-4  col-md-4  col-sm-6 col-xs-12">
 								<div class="widget widget_nav_menu">
