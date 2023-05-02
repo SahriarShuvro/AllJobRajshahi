@@ -34,6 +34,7 @@ header#header.cs-transparent-header .wish-list a i:hover {
   background: #f5f6f8;
   padding: 20px 10px;
   border-radius: 2px;
+  margin: 10px;
 }
 
 .portraitAds img {
@@ -109,4 +110,3 @@ header#header.cs-transparent-header .wish-list a i:hover {
   height: 50px;
   margin-right: 10px;
 }
-
